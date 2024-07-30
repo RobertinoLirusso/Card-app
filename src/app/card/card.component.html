@@ -1,0 +1,33 @@
+<div class="root">
+
+    <mat-toolbar class="header">
+        <span>The World’s Most Valuable Sports Teams in 2024</span>
+      </mat-toolbar>
+      
+      <div class="container responsive-grid">
+        <mat-card class="card" appearance="outlined" *ngFor="let team of teams">
+            <img mat-card-image [src]="team.logo_url" alt="team_logo" class="logo">
+            <br>
+            <mat-card-header>
+                <mat-card-title>{{team.name}}</mat-card-title>
+                <mat-card-subtitle>{{team.location}}</mat-card-subtitle>
+              </mat-card-header>
+              <mat-card-content>
+                <p>
+                    {{team.description}}
+                </p>
+              </mat-card-content>
+                <mat-card-actions align="end">
+                  <a [href]="team.website" target="_blank">
+                    <button mat-stroked-button>
+                      View
+                    </button>
+                  </a>
+                  </mat-card-actions>
+        </mat-card>
+      </div>
+
+      <div class="footer"> 
+        <span>2024. &copy; All rights reserved</span>
+      </div>
+</div>
