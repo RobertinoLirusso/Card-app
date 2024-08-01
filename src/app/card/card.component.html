@@ -1,9 +1,7 @@
 <div class="root">
-
-    <mat-toolbar class="header">
-        <span>The World’s Most Valuable Sports Teams in 2024</span>
-      </mat-toolbar>
-      
+  <header class="header">
+    <span>The World’s Most Valuable Sports Teams in 2024</span>
+  </header>
       <div class="container responsive-grid">
         <mat-card class="card" appearance="outlined" *ngFor="let team of teams">
             <img mat-card-image [src]="team.logo_url" alt="team_logo" class="logo">
