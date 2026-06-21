@@ -9,7 +9,7 @@ export const Teams = [
   {
     name: "New York Yankees",
     location: "New York City, New York, USA",
-    logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Yankees_logo.svg/417px-Yankees_logo.svg.png",
+    logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/New_York_Yankees_logo.svg/250px-New_York_Yankees_logo.svg.png",
     description: "Valued at $7.1B, the MLB's most storied franchise.",
     website: "https://www.mlb.com/yankees"
   },
@@ -30,7 +30,7 @@ export const Teams = [
   {
     name: "Los Angeles Rams",
     location: "Los Angeles, California, USA",
-    logo_url: "https://upload.wikimedia.org/wikipedia/en/8/8a/Los_Angeles_Rams_logo.svg",
+    logo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/LA_Rams_logo.svg/330px-LA_Rams_logo.svg.png",
     description: "Valued at $6.9B, a reborn NFL powerhouse in LA.",
     website: "https://www.therams.com/"
   },
